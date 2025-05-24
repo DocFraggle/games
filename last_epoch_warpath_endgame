@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ItemFilter xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
   <name>Warpath_Endgame</name>
   <filterIcon>7</filterIcon>
   <filterIconColor>15</filterIconColor>
   <description />
-  <lastModifiedInVersion>1.2.1.2</lastModifiedInVersion>
+  <lastModifiedInVersion>1.2.5.1</lastModifiedInVersion>
   <lootFilterVersion>3</lootFilterVersion>
   <rules>
     <Rule>
@@ -17,6 +17,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>70</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -53,6 +54,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>69</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -89,9 +91,10 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>68</Order>
     </Rule>
     <Rule>
-      <type>SHOW</type>
+      <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="RarityCondition">
           <rarity>UNIQUE SET LEGENDARY</rarity>
@@ -104,13 +107,14 @@
           <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
         </Condition>
       </conditions>
-      <color>0</color>
+      <color>16</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>67</Order>
     </Rule>
     <Rule>
       <type>SHOW</type>
@@ -137,6 +141,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>66</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -196,6 +201,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>65</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -247,6 +253,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>64</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -265,19 +272,51 @@
           </affixes>
           <comparsion>ANY</comparsion>
           <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>2</minOnTheSameItem>
+          <minOnTheSameItem>1</minOnTheSameItem>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
           <advanced>false</advanced>
         </Condition>
       </conditions>
       <color>17</color>
-      <isEnabled>true</isEnabled>
+      <isEnabled>false</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>63</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>843</int>
+            <int>854</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>17</color>
+      <isEnabled>false</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+      <Order>62</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -308,6 +347,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>61</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -338,6 +378,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>60</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -369,6 +410,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>59</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -400,6 +442,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>58</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -436,6 +479,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>57</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -472,6 +516,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>56</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -509,6 +554,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>55</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -546,6 +592,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>54</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -578,6 +625,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>53</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -610,6 +658,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>52</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -649,6 +698,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>51</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -685,6 +735,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>50</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -716,6 +767,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>49</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -747,6 +799,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>48</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -784,6 +837,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>47</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -820,6 +874,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>46</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -851,6 +906,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>45</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -882,6 +938,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>44</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -918,6 +975,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>43</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -952,6 +1010,26 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>42</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>12</color>
+      <isEnabled>false</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride />
+      <Order>41</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -983,6 +1061,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>40</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1014,6 +1093,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>39</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1052,6 +1132,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>38</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1087,6 +1168,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>37</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1120,6 +1202,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>36</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1153,6 +1236,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>35</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1192,6 +1276,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>34</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1229,6 +1314,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>33</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1260,6 +1346,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>32</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1291,6 +1378,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>31</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1330,6 +1418,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>30</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1368,6 +1457,228 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>29</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_3x1</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>119</int>
+            <int>271</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>TIMEROT GRAND IDOL</nameOverride>
+      <Order>28</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x4</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>201</int>
+            <int>403</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>TIMEROT HUGE IDOL</nameOverride>
+      <Order>27</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_LAGON</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>842</int>
+            <int>854</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>TIMEROT SMALL IDOL</nameOverride>
+      <Order>26</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x3</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>942</int>
+            <int>117</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>UMBRAL LARGE IDOL</nameOverride>
+      <Order>25</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x2</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>880</int>
+            <int>886</int>
+            <int>891</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>UMBRAL STOUT IDOL</nameOverride>
+      <Order>24</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_2x1</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>862</int>
+            <int>870</int>
+            <int>868</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>2</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>UMBRAL HUMBLE IDOL</nameOverride>
+      <Order>23</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>IDOL_1x1_ETERRA</EquipmentType>
+          </type>
+          <subTypes>
+            <int>2</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>833</int>
+            <int>837</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>6</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>UMBRAL SMALL IDOL</nameOverride>
+      <Order>22</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1399,6 +1710,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>21</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1430,6 +1742,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>20</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1471,6 +1784,79 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride />
+      <Order>19</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes>
+            <int>61</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>560</int>
+            <int>765</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>TIME ROT HELMET</nameOverride>
+      <Order>18</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>QUIVER</EquipmentType>
+          </type>
+          <subTypes>
+            <int>7</int>
+            <int>2</int>
+          </subTypes>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>503</int>
+            <int>16</int>
+            <int>30</int>
+            <int>7</int>
+            <int>5</int>
+            <int>86</int>
+            <int>56</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>3</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>4</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>UMBRAL BLADES QUIVER</nameOverride>
+      <Order>17</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1511,6 +1897,300 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride />
+      <Order>16</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>75</int>
+            <int>36</int>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX BELT</nameOverride>
+      <Order>15</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX RELIC</nameOverride>
+      <Order>14</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>28</int>
+            <int>505</int>
+            <int>36</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX BOOTS</nameOverride>
+      <Order>13</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>5</int>
+            <int>25</int>
+            <int>501</int>
+            <int>15</int>
+            <int>92</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX RING</nameOverride>
+      <Order>12</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>561</int>
+            <int>331</int>
+            <int>52</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX ARMOR</nameOverride>
+      <Order>11</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>TWO_HANDED_SWORD</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>76</int>
+            <int>2</int>
+            <int>723</int>
+            <int>86</int>
+            <int>57</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX SWORD</nameOverride>
+      <Order>10</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+            <int>6</int>
+            <int>72</int>
+            <int>88</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX AMULET</nameOverride>
+      <Order>9</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+            <int>369</int>
+            <int>560</int>
+            <int>765</int>
+            <int>503</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>6</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>6</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX HELM</nameOverride>
+      <Order>8</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOW</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>6</int>
+            <int>672</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>EX BOW</nameOverride>
+      <Order>7</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1556,6 +2236,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>GLOVES</nameOverride>
+      <Order>6</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1601,6 +2282,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>BELT</nameOverride>
+      <Order>5</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1648,6 +2330,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>AMULET</nameOverride>
+      <Order>4</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1693,6 +2376,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>HELM</nameOverride>
+      <Order>3</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1717,6 +2401,7 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>AFFIXES</nameOverride>
+      <Order>2</Order>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -1741,6 +2426,59 @@
       <maxLvl>0</maxLvl>
       <emphasized>true</emphasized>
       <nameOverride>UNIQUES</nameOverride>
+      <Order>1</Order>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="UniquesCondition">
+          <uniqueIds>
+            <unsignedShort>1</unsignedShort>
+            <unsignedShort>357</unsignedShort>
+            <unsignedShort>172</unsignedShort>
+            <unsignedShort>412</unsignedShort>
+            <unsignedShort>6</unsignedShort>
+            <unsignedShort>222</unsignedShort>
+            <unsignedShort>3</unsignedShort>
+            <unsignedShort>221</unsignedShort>
+            <unsignedShort>415</unsignedShort>
+            <unsignedShort>199</unsignedShort>
+            <unsignedShort>240</unsignedShort>
+            <unsignedShort>266</unsignedShort>
+            <unsignedShort>332</unsignedShort>
+            <unsignedShort>213</unsignedShort>
+            <unsignedShort>372</unsignedShort>
+            <unsignedShort>27</unsignedShort>
+            <unsignedShort>167</unsignedShort>
+            <unsignedShort>116</unsignedShort>
+            <unsignedShort>187</unsignedShort>
+            <unsignedShort>339</unsignedShort>
+            <unsignedShort>365</unsignedShort>
+            <unsignedShort>269</unsignedShort>
+            <unsignedShort>220</unsignedShort>
+            <unsignedShort>364</unsignedShort>
+            <unsignedShort>162</unsignedShort>
+          </uniqueIds>
+        </Condition>
+        <Condition i:type="RarityCondition">
+          <rarity>NONE</rarity>
+          <minLegendaryPotential>2</minLegendaryPotential>
+          <maxLegendaryPotential i:nil="true" />
+          <minWeaversWill i:nil="true" />
+          <maxWeaversWill i:nil="true" />
+          <advanced_DEPRECATED>false</advanced_DEPRECATED>
+          <requiredLegendaryPotential_DEPRECATED>0</requiredLegendaryPotential_DEPRECATED>
+          <requiredWeaversWill_DEPRECATED>0</requiredWeaversWill_DEPRECATED>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>true</emphasized>
+      <nameOverride>SELL 2 LP</nameOverride>
+      <Order>0</Order>
     </Rule>
   </rules>
 </ItemFilter>
